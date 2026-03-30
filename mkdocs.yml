@@ -1,14 +1,17 @@
-site_name: India EQIPA 
+site_name: NIH-IIMS
 site_description: Technical Documentation of EQIPA Platform
 site_author: waterinag
 site_url: https://praveenkalura.github.io/nih-eqipa-docs/
 repo_url: https://github.com/praveenkalura/nih-eqipa-docs
 edit_uri: edit/main/docs/
 
-copyright: "Copyright &copy; The World Bank Group"
+copyright: "Credits: World Bank, Central Water Commission and National Institute of Hydrology Roorkee, India"
 
 theme:
   name: material
+  font:
+    text: Source Sans 3
+    code: JetBrains Mono
   features:
     - navigation.tracking
     - navigation.top
@@ -20,14 +23,14 @@ theme:
   # favicon: assets/logo.ico
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: amber
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: amber
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -37,9 +40,21 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra_css:
+  - assets/stylesheets/eqipa-theme.css
+
   
 nav:
   - Introduction: index.md
+  - NIH Updates:
+    - 10 m Crop maps: nih-updates/10m-crop-maps.md
+    - ET Downscale: nih-updates/et-downscale.md
+    - TBP Downscale: nih-updates/tbp-downscale.md
+    - Tiff to GRASS Mapsets: nih-updates/tiff-to-grass-mapsets.md
+    - Virtual Machine Setup: nih-updates/virtual-machine-setup.md
+    - Mobile app: nih-updates/mobile-app.md
+    - EDIPA automation app: nih-updates/edipa-automation-app.md
+    - IIMS Database Information: nih-updates/iims-database-information.md
   - Download Datasets:
     - Overview: datasets/overview.md
     - Environment Setup: datasets/setup.md
@@ -75,12 +90,3 @@ nav:
     - Run with Docker: tool-setup/run-docker.md
     - Apache Configuration: tool-setup/apache.md
     - Common Errors & Fixes: tool-setup/errors.md
-  - NIH Updates:
-    - 10 m Crop maps: nih-updates/10m-crop-maps.md
-    - ET Downscale: nih-updates/et-downscale.md
-    - TBP Downscale: nih-updates/tbp-downscale.md
-    - Tiff to GRASS Mapsets: nih-updates/tiff-to-grass-mapsets.md
-    - Virtual Machine Setup: nih-updates/virtual-machine-setup.md
-    - Mobile app: nih-updates/mobile-app.md
-    - EDIPA automation app: nih-updates/edipa-automation-app.md
-    - IIMS Database Information: nih-updates/iims-database-information.md

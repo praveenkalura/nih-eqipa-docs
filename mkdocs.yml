@@ -1,7 +1,8 @@
 site_name: India EQIPA 
 site_description: Technical Documentation of EQIPA Platform
 site_author: waterinag
-site_url: https://waterinag.github.io/eqipa-docs/
+site_url: https://praveenkalura.github.io/nih-eqipa-docs/
+repo_url: https://github.com/praveenkalura/nih-eqipa-docs
 edit_uri: edit/main/docs/
 
 copyright: "Copyright &copy; The World Bank Group"
@@ -9,7 +10,6 @@ copyright: "Copyright &copy; The World Bank Group"
 theme:
   name: material
   features:
-    - navigation.instant
     - navigation.tracking
     - navigation.top
     - search.highlight
@@ -69,8 +69,18 @@ nav:
     
   - Tool Setup:
     - System Setup: tool-setup/system-setup.md
+    - 10m Database Preparation: tool-setup/database-preparation-10m.md
     - Running Tool in Development Mode: tool-setup/development-mode.md
     - Deployment in Production: tool-setup/deployment.md
     - Run with Docker: tool-setup/run-docker.md
     - Apache Configuration: tool-setup/apache.md
     - Common Errors & Fixes: tool-setup/errors.md
+  - NIH Updates:
+    - 10 m Crop maps: nih-updates/10m-crop-maps.md
+    - ET Downscale: nih-updates/et-downscale.md
+    - TBP Downscale: nih-updates/tbp-downscale.md
+    - Tiff to GRASS Mapsets: nih-updates/tiff-to-grass-mapsets.md
+    - Virtual Machine Setup: nih-updates/virtual-machine-setup.md
+    - Mobile app: nih-updates/mobile-app.md
+    - EDIPA automation app: nih-updates/edipa-automation-app.md
+    - IIMS Database Information: nih-updates/iims-database-information.md

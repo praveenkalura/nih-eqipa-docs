@@ -1,2 +1,9 @@
-venv
-.venv
+venv/
+.venv/
+site/
+.qoder/
+mkdocs.err.log
+mkdocs.out.log
+mkdocs.start.test.txt
+.DS_Store
+__pycache__/
